@@ -1,15 +1,209 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
-    <title>Locket Gold</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Locket Gold</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+
+background:linear-gradient(135deg,#0f172a,#1e293b,#111827);
+min-height:100vh;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+padding:20px;
+
+color:white;
+
+}
+
+.card{
+
+width:430px;
+max-width:100%;
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(25px);
+
+border:1px solid rgba(255,255,255,.12);
+
+border-radius:28px;
+
+padding:40px;
+
+text-align:center;
+
+box-shadow:
+0 20px 60px rgba(0,0,0,.4);
+
+}
+
+.logo{
+
+font-size:75px;
+
+margin-bottom:15px;
+
+}
+
+h1{
+
+font-size:34px;
+
+margin-bottom:10px;
+
+}
+
+.gold{
+
+color:#FFD700;
+
+}
+
+.desc{
+
+opacity:.75;
+
+line-height:1.7;
+
+margin-bottom:35px;
+
+}
+
+.download{
+
+display:block;
+
+text-decoration:none;
+
+background:linear-gradient(90deg,#FFD700,#FFB800);
+
+color:black;
+
+padding:18px;
+
+font-weight:700;
+
+font-size:18px;
+
+border-radius:16px;
+
+transition:.3s;
+
+}
+
+.download:hover{
+
+transform:translateY(-4px);
+
+box-shadow:0 10px 25px rgba(255,215,0,.35);
+
+}
+
+.guide{
+
+margin-top:35px;
+
+text-align:left;
+
+}
+
+.guide h2{
+
+font-size:20px;
+
+margin-bottom:15px;
+
+}
+
+.guide ol{
+
+padding-left:20px;
+
+opacity:.85;
+
+line-height:2;
+
+}
+
+.footer{
+
+margin-top:35px;
+
+font-size:13px;
+
+opacity:.5;
+
+}
+
+</style>
+
 </head>
+
 <body>
 
-<h1>Locket Gold</h1>
+<div class="card">
 
-<a href="/LocketGold.mobileconfig">
-    <button>Tải Profile</button>
+<div class="logo">💛</div>
+
+<h1>Locket <span class="gold">Gold</span></h1>
+
+<p class="desc">
+
+Tải Profile để kích hoạt DNS hỗ trợ sử dụng Locket Gold.
+
+</p>
+
+<a class="download" href="/LocketGold.mobileconfig">
+
+📥 Tải Profile
+
 </a>
+
+<div class="guide">
+
+<h2>📱 Hướng dẫn cài đặt</h2>
+
+<ol>
+
+<li>Nhấn <b>Tải Profile</b>.</li>
+
+<li>Mở <b>Cài đặt (Settings)</b>.</li>
+
+<li>Chọn <b>Profile Downloaded</b>.</li>
+
+<li>Nhấn <b>Install</b>.</li>
+
+<li>Khởi động lại ứng dụng Locket.</li>
+
+</ol>
+
+</div>
+
+<div class="footer">
+
+© 2026 PHG Digital
+
+</div>
+
+</div>
 
 </body>
 </html>
