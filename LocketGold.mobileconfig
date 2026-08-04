@@ -9,7 +9,7 @@
     <string>Hồ sơ cầu hình VIP chặn thu hồi Locket Gold vĩnh viễn.&#10;@phghuy</string>
 
     <key>PayloadIdentifier</key>
-    <string>io.nextdns.a633fa.profile</string>
+    <string>io.nextdns.c21bae.profile</string>
 
     <key>PayloadScope</key>
     <string>System</string>
@@ -18,7 +18,7 @@
     <string>Configuration</string>
 
     <key>PayloadUUID</key>
-    <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.a633fa</string>
+    <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.c21bae</string>
 
     <key>PayloadVersion</key>
     <integer>1</integer>
@@ -33,7 +33,7 @@
           <string>HTTPS</string>
 
           <key>ServerURL</key>
-          <string>https://dns.nextdns.io/a633fa</string>
+          <string>https://dns.nextdns.io/c21bae</string>
         </dict>
 
         <key>OnDemandRules</key>
@@ -51,13 +51,28 @@
 
                 <key>Domains</key>
                 <array>
-                  <string>captive.apple.com</string>
-                  <string>3gppnetwork.org</string>
-                  <string>dav.orange.fr</string>
-                  <string>vvm.mobistar.be</string>
-                  <string>vvm.mstore.msg.t-mobile.com</string>
-                  <string>tma.vvm.mone.pan-net.eu</string>
-                  <string>vvm.ee.co.uk</string>
+                  <string>*.api.locket.2p.com</string>
+                  <string>*.locket.requable1.com</string>
+                  <string>*.locket.v2p.com</string>
+                  <string>*.locket.v2.com</string>
+                  <string>*.app-measurement.com</string>
+                  <string>*.api2.amplitude.com</string>
+                  <string>*.sandbox.itunes.apple.com</string>
+                  <string>*.app.revenuecat.com</string>
+                  <string>*.api-production.8-lives-cat.io</string>
+                  <string>*.app-analytics-services.com</string>
+                  <string>*.firebaseremoteconfig.googleapis.com</string>
+                  <string>*.firebaseinstallations.googleapis.com</string>
+                  <string>*.oy24bn.dynamic-config</string>
+                  <string>*.api.appsflyersdk.com</string>
+                  <string>*.firebase-settings.crashlytics.com</string>
+                  <string>*.google-analytics.com</string>
+                  <string>*.purchases-api.revenuecat.com</string>
+                  <string>*.oy24bn.skadsdkless.appsflyersdk.com</string>
+                  <string>*.logs.ads.vungle.com</string>
+                  <string>*.ppq.apple.com</string>
+                  <string>*.ocsp.apple.com</string>
+                  <string>*.ocsp2.apple.com</string>
                 </array>
 
               </dict>
@@ -75,10 +90,10 @@
         <string>com.apple.dnsSettings.managed</string>
 
         <key>PayloadIdentifier</key>
-        <string>io.nextdns.a633fa.profile.dnsSettings.managed</string>
+        <string>io.nextdns.c21bae.profile.dnsSettings.managed</string>
 
         <key>PayloadUUID</key>
-        <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.a633fa.dnsSettings.managed</string>
+        <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.c21bae.dnsSettings.managed</string>
 
         <key>PayloadDisplayName</key>
         <string>Locket Gold NextDNS</string>
