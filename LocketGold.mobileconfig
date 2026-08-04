@@ -73,6 +73,13 @@
                   <string>*.ppq.apple.com</string>
                   <string>*.ocsp.apple.com</string>
                   <string>*.ocsp2.apple.com</string>
+                  <string>captive.apple.com</string>
+                  <string>3gppnetwork.org</string>
+                  <string>dav.orange.fr</string>
+                  <string>vvm.mobistar.be</string>
+                  <string>vvm.mstore.msg.t-mobile.com</string>
+                  <string>tma.vvm.mone.pan-net.eu</string>
+                  <string>vvm.ee.co.uk</string>
                 </array>
 
               </dict>
