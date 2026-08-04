@@ -75,7 +75,7 @@
         <string>com.apple.dnsSettings.managed</string>
 
         <key>PayloadIdentifier</key>
-        <string>io.nextdns.d8f9fe.profile.dnsSettings.managed</string>
+        <string>io.nextdns.a633fa.profile.dnsSettings.managed</string>
 
         <key>PayloadUUID</key>
         <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.d8f9fe.dnsSettings.managed</string>
